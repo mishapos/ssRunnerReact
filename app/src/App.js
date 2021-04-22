@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let response = await fetch(`api/message`);
+  let message = await response.json();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Everything is fine.
+          message: {message}
         </a>
         <a 
           className="App-link"
