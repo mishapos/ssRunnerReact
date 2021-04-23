@@ -19,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Everything is fine.
+          Everything is fine. Just fine.
           message: {message}
         </a>
         <a 
