@@ -19,12 +19,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Everything is fine. Just fine.
+          Everything is fine. Just fine. Absolutely fine.
           message: {message}
         </a>
         <a 
           className="App-link"
-          href="https://cerulean-iguana-839.azurestaticwebsites.net/.auth/login/aad"
+          href="/.auth/login/aad"
         >
         Log in with Azure AD
         </a>
