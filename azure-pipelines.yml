@@ -10,9 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: 18aad896-eeee-eeee-eeee-8ced4806941a@0.1.8
+- task: 18aad896-eeee-eeee-eeee-8ced4806941a@0.1.9
   displayName: 'Static Web App:'
-  env:
-    SWA_TOKEN: $(static_web_apps_token)
   inputs:
     app_location: $(Pipeline.Workspace)\app
