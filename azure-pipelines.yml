@@ -11,9 +11,8 @@ pool:
 
 steps:
 - task: AzureStaticWebApp@0
-  displayName: 'Static Web App: '
+  displayName: 'Static Web App:'
   env:
     SWA_TOKEN: $(static_web_apps_token)
   inputs:
     app_location: $(Pipeline.Workspace)\app
-
