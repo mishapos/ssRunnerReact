@@ -15,4 +15,4 @@ steps:
   env:
     SWA_TOKEN: $(static_web_apps_token)
   inputs:
-    app_location: app
+    app_location: $(Build.SourcesDirectory)/app
